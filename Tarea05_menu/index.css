@@ -1,0 +1,222 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.fondo {
+    display: flex;
+    background-color: rgb(53, 51, 51);
+    color: white;
+    width: 700px;
+    height: fit-content;
+    align-items: center;
+    flex-direction: column;
+}
+.cabeza {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 500px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.titulo {
+    position: relative;
+    font-size: 130px;
+    margin-top: 40px;
+    display: flex;
+    right: 35px;
+    top: 100px;
+}
+.subtitulo {
+    position:relative;
+    font-size: 30px;
+    top: 100px;
+    display: flex;
+    
+}
+.cabeza > img{
+    position: relative;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    left: 70%;
+    bottom: 70px;
+    filter: brightness(1.0);
+    filter: grayscale(4.0);
+    mix-blend-mode:multiply;
+}
+.menu {
+    height: fit-content;
+    width: 600px;
+    display: flex;
+}
+.menu-izq {
+    width: 50%;
+    border-right: 4px solid;
+    border-color: whitesmoke;
+}
+.entrantes {
+    font-size: 30px;
+    display: flex;
+    width: 90%;
+    height: 40px;
+    background-color: whitesmoke;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+.platos {
+    display: flex;
+    height: 280px;
+    flex-direction: column;
+    margin-left: 5px;
+    #precio {
+        display: flex;
+        justify-content: end;
+        margin-right: 35px;
+        position: relative;
+        bottom: 10px;
+    } 
+    .desc {
+        position: relative;
+        bottom: 20px;
+    }
+}
+.extra {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    display: flex;
+    flex-direction: row;
+    width: 92%;
+    height: 80px;
+    #texto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: small;
+    }
+}
+.bebidas {
+    position: relative;
+    font-size: 30px;
+    display: flex;
+    width: 90%;
+    height: 35px;
+    top: 30px;
+    background-color: whitesmoke;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+.liquido {
+    position: relative;
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    margin-left: 5px;
+    top: 30px;
+    #precio2 {
+        display: flex;
+        justify-content: end;
+        margin-right: 35px;
+        position: relative;
+        bottom: 20px;
+    } 
+}
+.menu-der {
+    width: 50%;
+}
+.hamburguesas {
+    position: relative;
+    font-size: 30px;
+    display: flex;
+    width: 90%;
+    height: 40px;
+    left: 30px;
+    background-color: whitesmoke;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+.platos2 {
+    display: flex;
+    height: 280px;
+    flex-direction: column;
+    margin-left: 0px;
+    border-bottom: 4px solid;
+    border-color: whitesmoke;
+    padding-bottom: 35px;
+    #precio {
+        display: flex;
+        justify-content: end;
+        position: relative;
+        bottom: 10px;
+    } 
+    .desc2 {
+        position: relative;
+        bottom: 20px;
+        left: 28px;
+    }
+    .nombre-plato {
+        position: relative;
+        left: 28px;
+    }
+}
+.patatas {
+    position: relative;
+    font-size: 30px;
+    display: flex;
+    width: 90%;
+    height: 40px;
+    left: 30px;
+    top: 20px;
+    background-color: whitesmoke;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+.guarnicion {
+    position: relative;
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    padding-bottom: 35px;
+    top: 30px;
+    #precio {
+        display: flex;
+        justify-content: end;
+        position: relative;
+        bottom: 10px;
+    } 
+    .desc3 {
+        position: relative;
+        bottom: 20px;
+        left: 28px;
+    }
+    .nombre-plato2 {
+        position: relative;
+        left: 28px;
+    }
+}
+#espacio {
+    background-color: rgb(53, 51, 51);
+    width: 100%;
+    height: 20px;
+}
+.contacto {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    color: black;
+    width: 600px;
+    height: 40px;
+    #img-final {
+        width: 40px;
+        height: 40px;
+        filter: brightness(1.0);
+        filter: grayscale(4.0);
+        mix-blend-mode:multiply; 
+    }
+}
